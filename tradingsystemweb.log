@@ -1,0 +1,268 @@
+[TRACE] 2022-08-22T17:55:50,964 [main] com.shinobiutil.dbhelper.DbConfigFactory  - JDBC_URL:::class java.lang.String:::jdbc:postgresql://10.78.28.51:5432/dbsystemlog
+[TRACE] 2022-08-22T17:55:50,971 [AsyncAppender-Async] com.shinobiutil.dbhelper.DbConfigFactory  - JDBC_URL:::class java.lang.String:::jdbc:postgresql://10.78.28.51:5432/dbsystemlog
+[TRACE] 2022-08-22T17:55:50,973 [AsyncAppender-Async] com.shinobiutil.dbhelper.DbConfigFactory  - USER_NAME:::class java.lang.String:::gbsofts
+[TRACE] 2022-08-22T17:55:50,973 [main] com.shinobiutil.dbhelper.DbConfigFactory  - USER_NAME:::class java.lang.String:::gbsofts
+[TRACE] 2022-08-22T17:55:50,975 [main] com.shinobiutil.dbhelper.DbConfigFactory  - PASSWORD:::class java.lang.String:::gbsoftsdev@000
+[TRACE] 2022-08-22T17:55:50,975 [AsyncAppender-Async] com.shinobiutil.dbhelper.DbConfigFactory  - PASSWORD:::class java.lang.String:::gbsoftsdev@000
+[TRACE] 2022-08-22T17:55:50,975 [main] com.shinobiutil.dbhelper.DbConfigFactory  - DRIVER_CLASS:::class java.lang.String:::org.postgresql.Driver
+[TRACE] 2022-08-22T17:55:50,975 [AsyncAppender-Async] com.shinobiutil.dbhelper.DbConfigFactory  - DRIVER_CLASS:::class java.lang.String:::org.postgresql.Driver
+[TRACE] 2022-08-22T17:55:50,976 [main] com.shinobiutil.dbhelper.DbConfigFactory  - TIME_OUT:::long:::0
+[TRACE] 2022-08-22T17:55:50,976 [AsyncAppender-Async] com.shinobiutil.dbhelper.DbConfigFactory  - TIME_OUT:::long:::0
+[TRACE] 2022-08-22T17:55:50,976 [main] com.shinobiutil.dbhelper.DbConfigFactory  - MAX_POOL_SIZE:::int:::10
+[TRACE] 2022-08-22T17:55:50,976 [AsyncAppender-Async] com.shinobiutil.dbhelper.DbConfigFactory  - MAX_POOL_SIZE:::int:::10
+[TRACE] 2022-08-22T17:55:50,976 [main] com.shinobiutil.dbhelper.DbConfigFactory  - logger:::interface org.apache.logging.log4j.Logger:::null
+[TRACE] 2022-08-22T17:55:50,976 [AsyncAppender-Async] com.shinobiutil.dbhelper.DbConfigFactory  - logger:::interface org.apache.logging.log4j.Logger:::null
+[INFO] 2022-08-22T17:55:51,163 [main] com.shinobiutil.concurrent.ShinobiConcurrentManager  - scheduleTask API_LOG_TASK has started
+[TRACE] 2022-08-22T17:55:51,165 [main] com.shinobiutil.dbhelper.DbConfigFactory  - JDBC_URL:::class java.lang.String:::jdbc:postgresql://10.78.28.51:5432/dbshinobiwebcore1
+[TRACE] 2022-08-22T17:55:51,165 [main] com.shinobiutil.dbhelper.DbConfigFactory  - USER_NAME:::class java.lang.String:::gbsofts
+[TRACE] 2022-08-22T17:55:51,166 [main] com.shinobiutil.dbhelper.DbConfigFactory  - PASSWORD:::class java.lang.String:::gbsoftsdev@000
+[TRACE] 2022-08-22T17:55:51,166 [main] com.shinobiutil.dbhelper.DbConfigFactory  - DRIVER_CLASS:::class java.lang.String:::org.postgresql.Driver
+[TRACE] 2022-08-22T17:55:51,167 [main] com.shinobiutil.dbhelper.DbConfigFactory  - TIME_OUT:::long:::0
+[TRACE] 2022-08-22T17:55:51,167 [main] com.shinobiutil.dbhelper.DbConfigFactory  - MAX_POOL_SIZE:::int:::20
+[TRACE] 2022-08-22T17:55:51,167 [main] com.shinobiutil.dbhelper.DbConfigFactory  - logger:::interface org.apache.logging.log4j.Logger:::null
+[TRACE] 2022-08-22T17:55:51,213 [main] com.shinobiutil.dbhelper.DbConfigFactory  - JDBC_URL:::class java.lang.String:::jdbc:postgresql://10.78.28.51:5432/dbshinobimail
+[TRACE] 2022-08-22T17:55:51,214 [main] com.shinobiutil.dbhelper.DbConfigFactory  - USER_NAME:::class java.lang.String:::gbsofts
+[TRACE] 2022-08-22T17:55:51,214 [main] com.shinobiutil.dbhelper.DbConfigFactory  - PASSWORD:::class java.lang.String:::gbsoftsdev@000
+[TRACE] 2022-08-22T17:55:51,215 [main] com.shinobiutil.dbhelper.DbConfigFactory  - DRIVER_CLASS:::class java.lang.String:::org.postgresql.Driver
+[TRACE] 2022-08-22T17:55:51,215 [main] com.shinobiutil.dbhelper.DbConfigFactory  - TIME_OUT:::long:::0
+[TRACE] 2022-08-22T17:55:51,215 [main] com.shinobiutil.dbhelper.DbConfigFactory  - MAX_POOL_SIZE:::int:::10
+[TRACE] 2022-08-22T17:55:51,216 [main] com.shinobiutil.dbhelper.DbConfigFactory  - logger:::interface org.apache.logging.log4j.Logger:::null
+[INFO] 2022-08-22T17:55:52,306 [main] com.testproject.main.TestProjectMain  - load config ...
+[TRACE] 2022-08-22T17:55:52,308 [main] com.shinobiserver.server.config.ServerConfig  - HTTP_PORT:::int:::7980
+[TRACE] 2022-08-22T17:55:52,309 [main] com.shinobiserver.server.config.ServerConfig  - UPLOADFILE_PORT:::int:::9999
+[TRACE] 2022-08-22T17:55:52,309 [main] com.shinobiserver.server.config.ServerConfig  - WEBSOCKET_PORT:::int:::8080
+[TRACE] 2022-08-22T17:55:52,309 [main] com.shinobiserver.server.config.ServerConfig  - FILTER_MAPPING:::class java.lang.String:::com.shinobi.filter.impl.AuthenticationFilter#/private|com.shinobi.filter.impl.AuthenticationFilter#/authenapi|com.shinobi.filter.impl.AuthenticationFilter#/system|com.shinobi.filter.impl.AuthorizationFilter#/authenapi|com.shinobi.filter.impl.AuthorizationFilter#/private|com.shinobi.filter.impl.AuthorizationFilter#/system
+[TRACE] 2022-08-22T17:55:52,309 [main] com.shinobiserver.server.config.ServerConfig  - ROUTE_MAPPING:::class java.lang.String:::/applelogin#com.shinobiwebcore.routing.impl.AppleLoginProcessorImpl|/exportfile#com.shinobi.routing.impl.ExportFileProcessorImpl|/systemlogin#com.shinobi.routing.impl.LoginProcessorImpl|/login#com.shinobiwebcore.routing.impl.LoginProcessorImpl|/logout#com.shinobiwebcore.routing.impl.LogoutProcessorImpl|/#com.shinobi.routing.impl.HomeProcessorImpl|/page#com.shinobi.routing.impl.PageProcessorImpl|/mobile#com.shinobi.routing.impl.MobileProcessorImpl|/private#com.shinobi.routing.impl.PrivateProcessorImpl|/api#com.shinobi.routing.impl.ApiProcessorImpl|/authenapi#com.shinobi.routing.impl.AuthenApiProcessorImpl|/static#com.shinobi.routing.impl.StaticProcessorImpl|/system#com.shinobi.routing.impl.SystemProcessorImpl|/facebooklogin#com.shinobiwebcore.routing.impl.FacebookLoginProcessorImpl|/googlelogin#com.shinobiwebcore.routing.impl.GoogleLoginProcessorImpl|/robots.txt#com.shinobi.routing.impl.RobotsProcessorImpl
+[TRACE] 2022-08-22T17:55:52,310 [main] com.shinobiserver.server.config.ServerConfig  - UPLOAD_ROUTE_MAPPING:::class java.lang.String:::/uploadimage#com.shinobiserver.server.handler.helper.impl.FileUploadHelperImpl|/uploadfile#com.shinobiserver.server.handler.helper.impl.FileUploadHelperImpl|/uploadavatar#com.shinobiserver.server.handler.helper.impl.FileUploadHelperImpl
+[TRACE] 2022-08-22T17:55:52,310 [main] com.shinobiserver.server.config.ServerConfig  - API_MAPPING:::class java.lang.String:::PostApi#com.shinobiwebcore.api.PostApi|BannerApi#com.shinobiwebcore.api.BannerApi|ClientConfigurationApi#com.shinobiwebcore.api.ClientConfigurationApi|DocumentApi#com.shinobiwebcore.api.DocumentApi|ResourceBundleApi#com.shinobiwebcore.api.ResourceBundleApi|MenuHeaderApi#com.shinobiwebcore.api.MenuHeaderApi|ChartApi#com.testproject.api.ChartApi|BondApi#com.testproject.api.BondApi
+[TRACE] 2022-08-22T17:55:52,310 [main] com.shinobiserver.server.config.ServerConfig  - AUTHEN_API_MAPPING:::class java.lang.String:::ModuleApi#com.shinobiwebcore.authenapi.ModuleApi|userapi#com.shinobiwebcore.authenapi.UserApi|groupapi#com.shinobiwebcore.authenapi.GroupApi|usergroupapi#com.shinobiwebcore.authenapi.UserGroupApi|roleapi#com.shinobiwebcore.authenapi.RoleApi|MenuApi#com.shinobiwebcore.authenapi.MenuApi|SystemResourceBundleApi#com.shinobiwebcore.authenapi.SystemResourceBundleApi|PostManagementApi#com.shinobiwebcore.authenapi.PostManagementApi|PostTypeApi#com.shinobiwebcore.authenapi.PostTypeApi|BannerManagementApi#com.shinobiwebcore.authenapi.BannerManagementApi|BannerTypeApi#com.shinobiwebcore.authenapi.BannerTypeApi|ConfigurationApi#com.shinobiwebcore.authenapi.ConfigurationApi|DocumentManagementApi#com.shinobiwebcore.authenapi.DocumentManagementApi|DocumentTypeApi#com.shinobiwebcore.authenapi.DocumentTypeApi|userinfoapi#com.testproject.authenapi.UserInfoApi|ChartManagementApi#com.testproject.authenapi.ChartManagementApi|ChartConfigApi#com.testproject.authenapi.ChartConfigApi
+[TRACE] 2022-08-22T17:55:52,311 [main] com.shinobiserver.server.config.ServerConfig  - SESSION_TIMEOUT:::long:::360000000
+[TRACE] 2022-08-22T17:55:52,311 [main] com.shinobiserver.server.config.ServerConfig  - DEFAULT_PAGE:::class java.lang.String:::index.html
+[TRACE] 2022-08-22T17:55:52,311 [main] com.shinobiserver.server.config.ServerConfig  - FILE_CACHE_EXPIRED_TIME:::long:::5000
+[TRACE] 2022-08-22T17:55:52,311 [main] com.shinobiserver.server.config.ServerConfig  - BROWSER_CACHE_CONTROL:::class java.lang.String:::public, max-age=3600
+[TRACE] 2022-08-22T17:55:52,312 [main] com.shinobiserver.server.config.ServerConfig  - BROWSER_STATIC_CACHE_CONTROL:::class java.lang.String:::public, max-age=5000
+[TRACE] 2022-08-22T17:55:52,312 [main] com.shinobiserver.server.config.ServerConfig  - BROWSER_ETAG:::class java.lang.String:::1
+[TRACE] 2022-08-22T17:55:52,312 [main] com.shinobiserver.server.config.ServerConfig  - MAX_POST_SIZE:::int:::5242880
+[TRACE] 2022-08-22T17:55:52,312 [main] com.shinobiserver.server.config.ServerConfig  - MAX_POST_FILE_SIZE:::int:::5242880
+[TRACE] 2022-08-22T17:55:52,312 [main] com.shinobiserver.server.config.ServerConfig  - BUCKET_AK:::class java.lang.String:::0J7P5IKNDD8JUB8KHZS2
+[TRACE] 2022-08-22T17:55:52,312 [main] com.shinobiserver.server.config.ServerConfig  - BUCKET_SK:::class java.lang.String:::jteO14kgucEs9eAETgqDywstC43iomoztV1BlWwq
+[TRACE] 2022-08-22T17:55:52,312 [main] com.shinobiserver.server.config.ServerConfig  - BUCKET_URL:::class java.lang.String:::https://s3.wasabisys.com
+[TRACE] 2022-08-22T17:55:52,313 [main] com.shinobiserver.server.config.ServerConfig  - BUCKET_REGION:::class java.lang.String:::us-east-1
+[TRACE] 2022-08-22T17:55:52,313 [main] com.shinobiserver.server.config.ServerConfig  - BUCKET_AVATAR:::class java.lang.String:::aladin.finance
+[TRACE] 2022-08-22T17:55:52,313 [main] com.shinobiserver.server.config.ServerConfig  - BUCKET_IMAGE:::class java.lang.String:::aladin.finance.public.image
+[TRACE] 2022-08-22T17:55:52,313 [main] com.shinobiserver.server.config.ServerConfig  - BUCKET_FILE:::class java.lang.String:::aladin.finance.public.file
+[TRACE] 2022-08-22T17:55:52,313 [main] com.shinobiserver.server.config.ServerConfig  - BUCKET_IMAGE_URL:::class java.lang.String:::https://image.aladin.finance
+[TRACE] 2022-08-22T17:55:52,314 [main] com.shinobiserver.server.config.ServerConfig  - BUCKET_FILE_URL:::class java.lang.String:::https://file.aladin.finance
+[TRACE] 2022-08-22T17:55:52,314 [main] com.shinobiserver.server.config.ServerConfig  - CHECK_AUTHORIZATION:::boolean:::true
+[TRACE] 2022-08-22T17:55:52,314 [main] com.shinobiserver.server.config.ServerConfig  - STARTUP_SERVICE:::class java.lang.String:::com.testproject.system.service.impl.StartupServiceImpl#startAllService
+[TRACE] 2022-08-22T17:55:52,314 [main] com.shinobiserver.server.config.ServerConfig  - LOCAL_STARTUP_SERVICE:::class java.lang.String:::com.testproject.system.service.impl.StartupServiceImpl#startLocalService
+[TRACE] 2022-08-22T17:55:52,315 [main] com.shinobiserver.server.config.ServerConfig  - IS_STARTUP_SERVICE_ENABLED:::boolean:::true
+[TRACE] 2022-08-22T17:55:52,315 [main] com.shinobiserver.server.config.ServerConfig  - SERVER_HEADER:::class java.lang.String:::Shinobi
+[INFO] 2022-08-22T17:55:53,415 [main] com.shinobiutil.concurrent.ShinobiConcurrentManager  - scheduleTask Schedulername_LoggerConfigSchedulerTask has started
+[INFO] 2022-08-22T17:55:53,415 [main] com.testproject.system.service.impl.StartupServiceImpl  - -------------------start caching-------------------
+[TRACE] 2022-08-22T17:55:53,416 [main] com.shinobiutil.dbhelper.DbConfigFactory  - JDBC_URL:::class java.lang.String:::jdbc:postgresql://10.78.28.51:5432/dbshinobiwebcore1
+[TRACE] 2022-08-22T17:55:53,416 [main] com.shinobiutil.dbhelper.DbConfigFactory  - USER_NAME:::class java.lang.String:::gbsofts
+[TRACE] 2022-08-22T17:55:53,416 [main] com.shinobiutil.dbhelper.DbConfigFactory  - PASSWORD:::class java.lang.String:::gbsoftsdev@000
+[TRACE] 2022-08-22T17:55:53,416 [main] com.shinobiutil.dbhelper.DbConfigFactory  - DRIVER_CLASS:::class java.lang.String:::org.postgresql.Driver
+[TRACE] 2022-08-22T17:55:53,416 [main] com.shinobiutil.dbhelper.DbConfigFactory  - TIME_OUT:::long:::0
+[TRACE] 2022-08-22T17:55:53,417 [main] com.shinobiutil.dbhelper.DbConfigFactory  - MAX_POOL_SIZE:::int:::20
+[TRACE] 2022-08-22T17:55:53,417 [main] com.shinobiutil.dbhelper.DbConfigFactory  - logger:::interface org.apache.logging.log4j.Logger:::null
+[INFO] 2022-08-22T17:55:54,407 [main] com.shinobiutil.concurrent.ShinobiConcurrentManager  - scheduleTask shinobiCache has started
+[INFO] 2022-08-22T17:55:54,410 [main] com.shinobiutil.concurrent.ShinobiConcurrentManager  - scheduleTask sessionCache has started
+[INFO] 2022-08-22T17:55:54,411 [main] com.shinobiutil.concurrent.ShinobiConcurrentManager  - scheduleTask staticResourceCache has started
+[TRACE] 2022-08-22T17:55:54,458 [main] com.shinobiutil.dbhelper.DbConfigFactory  - JDBC_URL:::class java.lang.String:::jdbc:postgresql://10.78.28.51:5432/dbshinobiwebcore1
+[TRACE] 2022-08-22T17:55:54,458 [main] com.shinobiutil.dbhelper.DbConfigFactory  - USER_NAME:::class java.lang.String:::gbsofts
+[TRACE] 2022-08-22T17:55:54,458 [main] com.shinobiutil.dbhelper.DbConfigFactory  - PASSWORD:::class java.lang.String:::gbsoftsdev@000
+[TRACE] 2022-08-22T17:55:54,458 [main] com.shinobiutil.dbhelper.DbConfigFactory  - DRIVER_CLASS:::class java.lang.String:::org.postgresql.Driver
+[TRACE] 2022-08-22T17:55:54,458 [main] com.shinobiutil.dbhelper.DbConfigFactory  - TIME_OUT:::long:::0
+[TRACE] 2022-08-22T17:55:54,459 [main] com.shinobiutil.dbhelper.DbConfigFactory  - MAX_POOL_SIZE:::int:::20
+[TRACE] 2022-08-22T17:55:54,459 [main] com.shinobiutil.dbhelper.DbConfigFactory  - logger:::interface org.apache.logging.log4j.Logger:::null
+[TRACE] 2022-08-22T17:55:54,465 [main] com.shinobi.service.impl.ShinobiCoreCachingServiceImpl  - cache dbconfig {"JDBC_URL":"jdbc:postgresql://10.78.28.51:5432/dbshinobiwebcore1","USER_NAME":"gbsofts","PASSWORD":"gbsoftsdev@000","DRIVER_CLASS":"org.postgresql.Driver","TIME_OUT":0,"MAX_POOL_SIZE":20}
+[INFO] 2022-08-22T17:55:54,469 [main] com.testproject.system.service.impl.StartupServiceImpl  - -------------------end caching-------------------
+[TRACE] 2022-08-22T17:55:54,470 [main] com.testproject.system.service.impl.SystemSchedulerControlServiceImpl  - startCbvScheduler:false
+[TRACE] 2022-08-22T17:55:54,470 [main] com.testproject.system.service.impl.SystemSchedulerControlServiceImpl  - start executing relation scheduler
+[TRACE] 2022-08-22T17:55:54,515 [main] com.shinobiserver.server.HttpServerImpl  - http server started on port 7980 
+[TRACE] 2022-08-22T17:55:54,517 [main] com.shinobiserver.server.HttpServerImpl  - file server started on port 9999 
+[TRACE] 2022-08-22T17:56:08,027 [nioEventLoopGroup-3-5] com.shinobiserver.server.handler.impl.RequestHandlerImpl2  - {"filters":[{"colname":"configname","operator":"=","value":"SIGN_IN"}]}
+[TRACE] 2022-08-22T17:56:08,027 [nioEventLoopGroup-3-6] com.shinobiserver.server.handler.impl.RequestHandlerImpl2  - {"filters":[{"colname":"configname","operator":"=","value":"SIGN_UP"}]}
+[TRACE] 2022-08-22T17:56:08,031 [nioEventLoopGroup-3-4] com.shinobiserver.server.handler.impl.RequestHandlerImpl2  - {}
+[TRACE] 2022-08-22T17:56:08,032 [nioEventLoopGroup-3-7] com.shinobiserver.server.handler.impl.RequestHandlerImpl2  - {"filters":[{"colname":"bannertype","operator":"=","value":"visionmission"}],"sorts":[{"colname":"priority","value":"asc"}]}
+[TRACE] 2022-08-22T17:56:08,055 [nioEventLoopGroup-3-8] com.shinobiserver.server.handler.impl.RequestHandlerImpl2  - {"filters":[{"colname":"bannertype","operator":"=","value":"productservice"}],"sorts":[{"colname":"priority","value":"asc"}]}
+[TRACE] 2022-08-22T17:56:08,068 [nioEventLoopGroup-3-9] com.shinobiserver.server.handler.impl.RequestHandlerImpl2  - {"filters":[{"colname":"bannertype","operator":"=","value":"mainnews"}],"sorts":[{"colname":"priority","value":"asc"}]}
+[DEBUG] 2022-08-22T17:56:08,071 [nioEventLoopGroup-3-4] com.shinobi.api.AbstractUnauthenApi  - getContent
+[DEBUG] 2022-08-22T17:56:08,088 [nioEventLoopGroup-3-4] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM tbmenu WHERE modulename=? AND menuparent IS NULL ORDER BY priority ASC 
+[DEBUG] 2022-08-22T17:56:08,118 [nioEventLoopGroup-3-4] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM tbmenu WHERE menuparent =? ORDER BY priority ASC 
+[DEBUG] 2022-08-22T17:56:08,124 [nioEventLoopGroup-3-4] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM tbmenu WHERE menuparent =? ORDER BY priority ASC 
+[DEBUG] 2022-08-22T17:56:08,133 [nioEventLoopGroup-3-4] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM tbmenu WHERE menuparent =? ORDER BY priority ASC 
+[DEBUG] 2022-08-22T17:56:08,140 [nioEventLoopGroup-3-4] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM tbmenu WHERE menuparent =? ORDER BY priority ASC 
+[DEBUG] 2022-08-22T17:56:08,147 [nioEventLoopGroup-3-4] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM tbmenu WHERE menuparent =? ORDER BY priority ASC 
+[DEBUG] 2022-08-22T17:56:08,152 [nioEventLoopGroup-3-4] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM tbmenu WHERE menuparent =? ORDER BY priority ASC 
+[DEBUG] 2022-08-22T17:56:08,160 [nioEventLoopGroup-3-4] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM tbmenu WHERE menuparent =? ORDER BY priority ASC 
+[DEBUG] 2022-08-22T17:56:08,165 [nioEventLoopGroup-3-4] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM tbmenu WHERE menuparent =? ORDER BY priority ASC 
+[INFO] 2022-08-22T17:56:08,182 [nioEventLoopGroup-3-4] com.shinobi.api.AbstractUnauthenApi  - commit transaction
+[TRACE] 2022-08-22T17:56:08,212 [nioEventLoopGroup-3-10] com.shinobiserver.server.handler.impl.RequestHandlerImpl2  - {"filters":[{"colname":"bannertype","operator":"=","value":"partner"}],"sorts":[{"colname":"priority","value":"asc"}]}
+[TRACE] 2022-08-22T17:56:08,320 [nioEventLoopGroup-3-8] com.shinobi.api.AbstractUnauthenApi  - filter {"colname":"bannertype","operator":"\u003d","value":"productservice"}
+[TRACE] 2022-08-22T17:56:08,320 [nioEventLoopGroup-3-9] com.shinobi.api.AbstractUnauthenApi  - filter {"colname":"bannertype","operator":"\u003d","value":"mainnews"}
+[TRACE] 2022-08-22T17:56:08,320 [nioEventLoopGroup-3-7] com.shinobi.api.AbstractUnauthenApi  - filter {"colname":"bannertype","operator":"\u003d","value":"visionmission"}
+[TRACE] 2022-08-22T17:56:08,320 [nioEventLoopGroup-3-10] com.shinobi.api.AbstractUnauthenApi  - filter {"colname":"bannertype","operator":"\u003d","value":"partner"}
+[TRACE] 2022-08-22T17:56:08,321 [nioEventLoopGroup-3-8] com.shinobi.api.AbstractUnauthenApi  - =
+[TRACE] 2022-08-22T17:56:08,321 [nioEventLoopGroup-3-9] com.shinobi.api.AbstractUnauthenApi  - =
+[TRACE] 2022-08-22T17:56:08,321 [nioEventLoopGroup-3-7] com.shinobi.api.AbstractUnauthenApi  - =
+[TRACE] 2022-08-22T17:56:08,321 [nioEventLoopGroup-3-10] com.shinobi.api.AbstractUnauthenApi  - =
+[TRACE] 2022-08-22T17:56:08,321 [nioEventLoopGroup-3-7] com.shinobi.api.AbstractUnauthenApi  - paramName: bannertype__0, paramValue: visionmission
+[TRACE] 2022-08-22T17:56:08,321 [nioEventLoopGroup-3-9] com.shinobi.api.AbstractUnauthenApi  - paramName: bannertype__0, paramValue: mainnews
+[TRACE] 2022-08-22T17:56:08,321 [nioEventLoopGroup-3-8] com.shinobi.api.AbstractUnauthenApi  - paramName: bannertype__0, paramValue: productservice
+[TRACE] 2022-08-22T17:56:08,323 [nioEventLoopGroup-3-8] com.shinobi.api.AbstractUnauthenApi  - filter {"colname":"isactive","operator":"\u003d","value":"true"}
+[TRACE] 2022-08-22T17:56:08,323 [nioEventLoopGroup-3-7] com.shinobi.api.AbstractUnauthenApi  - filter {"colname":"isactive","operator":"\u003d","value":"true"}
+[TRACE] 2022-08-22T17:56:08,323 [nioEventLoopGroup-3-9] com.shinobi.api.AbstractUnauthenApi  - filter {"colname":"isactive","operator":"\u003d","value":"true"}
+[TRACE] 2022-08-22T17:56:08,323 [nioEventLoopGroup-3-8] com.shinobi.api.AbstractUnauthenApi  - =
+[TRACE] 2022-08-22T17:56:08,321 [nioEventLoopGroup-3-10] com.shinobi.api.AbstractUnauthenApi  - paramName: bannertype__0, paramValue: partner
+[TRACE] 2022-08-22T17:56:08,323 [nioEventLoopGroup-3-7] com.shinobi.api.AbstractUnauthenApi  - =
+[TRACE] 2022-08-22T17:56:08,329 [nioEventLoopGroup-3-8] com.shinobi.api.AbstractUnauthenApi  - paramName: isactive__1, paramValue: true
+[TRACE] 2022-08-22T17:56:08,332 [nioEventLoopGroup-3-7] com.shinobi.api.AbstractUnauthenApi  - paramName: isactive__1, paramValue: true
+[TRACE] 2022-08-22T17:56:08,332 [nioEventLoopGroup-3-8] com.shinobi.api.AbstractUnauthenApi  -  WHERE o.bannertype = :bannertype__0 AND o.isactive = :isactive__1 ORDER BY  o.priority asc ,  o.priority asc
+[TRACE] 2022-08-22T17:56:08,333 [nioEventLoopGroup-3-7] com.shinobi.api.AbstractUnauthenApi  -  WHERE o.bannertype = :bannertype__0 AND o.isactive = :isactive__1 ORDER BY  o.priority asc ,  o.priority asc
+[TRACE] 2022-08-22T17:56:08,323 [nioEventLoopGroup-3-9] com.shinobi.api.AbstractUnauthenApi  - =
+[TRACE] 2022-08-22T17:56:08,333 [nioEventLoopGroup-3-9] com.shinobi.api.AbstractUnauthenApi  - paramName: isactive__1, paramValue: true
+[TRACE] 2022-08-22T17:56:08,334 [nioEventLoopGroup-3-9] com.shinobi.api.AbstractUnauthenApi  -  WHERE o.bannertype = :bannertype__0 AND o.isactive = :isactive__1 ORDER BY  o.priority asc ,  o.priority asc
+[TRACE] 2022-08-22T17:56:08,333 [nioEventLoopGroup-3-10] com.shinobi.api.AbstractUnauthenApi  - filter {"colname":"isactive","operator":"\u003d","value":"true"}
+[TRACE] 2022-08-22T17:56:08,335 [nioEventLoopGroup-3-10] com.shinobi.api.AbstractUnauthenApi  - =
+[TRACE] 2022-08-22T17:56:08,335 [nioEventLoopGroup-3-10] com.shinobi.api.AbstractUnauthenApi  - paramName: isactive__1, paramValue: true
+[TRACE] 2022-08-22T17:56:08,336 [nioEventLoopGroup-3-10] com.shinobi.api.AbstractUnauthenApi  -  WHERE o.bannertype = :bannertype__0 AND o.isactive = :isactive__1 ORDER BY  o.priority asc ,  o.priority asc
+[TRACE] 2022-08-22T17:56:08,336 [nioEventLoopGroup-3-9] com.shinobi.service.AbstractService  - query SELECT * FROM Tbbanner as o  WHERE o.bannertype = :bannertype__0 AND o.isactive = :isactive__1 ORDER BY  o.priority asc ,  o.priority asc
+[TRACE] 2022-08-22T17:56:08,336 [nioEventLoopGroup-3-8] com.shinobi.service.AbstractService  - query SELECT * FROM Tbbanner as o  WHERE o.bannertype = :bannertype__0 AND o.isactive = :isactive__1 ORDER BY  o.priority asc ,  o.priority asc
+[TRACE] 2022-08-22T17:56:08,337 [nioEventLoopGroup-3-8] com.shinobi.service.AbstractService  - condition:  WHERE o.bannertype = :bannertype__0 AND o.isactive = :isactive__1 ORDER BY  o.priority asc ,  o.priority asc
+[TRACE] 2022-08-22T17:56:08,337 [nioEventLoopGroup-3-7] com.shinobi.service.AbstractService  - query SELECT * FROM Tbbanner as o  WHERE o.bannertype = :bannertype__0 AND o.isactive = :isactive__1 ORDER BY  o.priority asc ,  o.priority asc
+[TRACE] 2022-08-22T17:56:08,337 [nioEventLoopGroup-3-9] com.shinobi.service.AbstractService  - condition:  WHERE o.bannertype = :bannertype__0 AND o.isactive = :isactive__1 ORDER BY  o.priority asc ,  o.priority asc
+[TRACE] 2022-08-22T17:56:08,338 [nioEventLoopGroup-3-7] com.shinobi.service.AbstractService  - condition:  WHERE o.bannertype = :bannertype__0 AND o.isactive = :isactive__1 ORDER BY  o.priority asc ,  o.priority asc
+[DEBUG] 2022-08-22T17:56:08,341 [nioEventLoopGroup-3-5] com.shinobiwebcore.api.ClientConfigurationApi  - ["YOUTUBE","FACEBOOK","CONTACT_INFORMATION","HOTLINE","SHOWCOMPANY","CONTACT_INFORMATION","HOTLINE","GMAIL","CONTACT_SUPPORT_INVEST","DEFAULT_THUMBNAIL","GMAIL","CONTACT_SUPPORT_INVEST","FACEBOOK","SIGN_IN","SIGN_UP","SIGN_UP_INFO","FOOTER","YOUTUBE"]
+[DEBUG] 2022-08-22T17:56:08,345 [nioEventLoopGroup-3-8] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM Tbbanner as o  WHERE o.bannertype = ? AND o.isactive = ? ORDER BY  o.priority asc ,  o.priority asc 
+[DEBUG] 2022-08-22T17:56:08,345 [nioEventLoopGroup-3-7] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM Tbbanner as o  WHERE o.bannertype = ? AND o.isactive = ? ORDER BY  o.priority asc ,  o.priority asc 
+[DEBUG] 2022-08-22T17:56:08,346 [nioEventLoopGroup-3-9] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM Tbbanner as o  WHERE o.bannertype = ? AND o.isactive = ? ORDER BY  o.priority asc ,  o.priority asc 
+[TRACE] 2022-08-22T17:56:08,348 [nioEventLoopGroup-3-5] com.shinobi.api.AbstractUnauthenApi  - filter {"colname":"configname","operator":"\u003d","value":"SIGN_IN"}
+[TRACE] 2022-08-22T17:56:08,349 [nioEventLoopGroup-3-5] com.shinobi.api.AbstractUnauthenApi  - =
+[TRACE] 2022-08-22T17:56:08,352 [nioEventLoopGroup-3-5] com.shinobi.api.AbstractUnauthenApi  - paramName: configname__0, paramValue: SIGN_IN
+[TRACE] 2022-08-22T17:56:08,353 [nioEventLoopGroup-3-5] com.shinobi.api.AbstractUnauthenApi  -  WHERE o.configname = :configname__0
+[TRACE] 2022-08-22T17:56:08,354 [nioEventLoopGroup-3-5] com.shinobi.service.AbstractService  - query SELECT * FROM Tbconfig as o  WHERE o.configname = :configname__0
+[TRACE] 2022-08-22T17:56:08,354 [nioEventLoopGroup-3-5] com.shinobi.service.AbstractService  - condition:  WHERE o.configname = :configname__0
+[TRACE] 2022-08-22T17:56:08,360 [nioEventLoopGroup-3-10] com.shinobi.service.AbstractService  - query SELECT * FROM Tbbanner as o  WHERE o.bannertype = :bannertype__0 AND o.isactive = :isactive__1 ORDER BY  o.priority asc ,  o.priority asc
+[DEBUG] 2022-08-22T17:56:08,370 [nioEventLoopGroup-3-5] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM Tbconfig as o  WHERE o.configname = ? 
+[TRACE] 2022-08-22T17:56:08,370 [nioEventLoopGroup-3-10] com.shinobi.service.AbstractService  - condition:  WHERE o.bannertype = :bannertype__0 AND o.isactive = :isactive__1 ORDER BY  o.priority asc ,  o.priority asc
+[DEBUG] 2022-08-22T17:56:08,351 [nioEventLoopGroup-3-6] com.shinobiwebcore.api.ClientConfigurationApi  - ["YOUTUBE","FACEBOOK","CONTACT_INFORMATION","HOTLINE","SHOWCOMPANY","CONTACT_INFORMATION","HOTLINE","GMAIL","CONTACT_SUPPORT_INVEST","DEFAULT_THUMBNAIL","GMAIL","CONTACT_SUPPORT_INVEST","FACEBOOK","SIGN_IN","SIGN_UP","SIGN_UP_INFO","FOOTER","YOUTUBE"]
+[DEBUG] 2022-08-22T17:56:08,371 [nioEventLoopGroup-3-10] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM Tbbanner as o  WHERE o.bannertype = ? AND o.isactive = ? ORDER BY  o.priority asc ,  o.priority asc 
+[DEBUG] 2022-08-22T17:56:08,371 [nioEventLoopGroup-3-8] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM Tbbanner as o   WHERE o.bannertype = ? AND o.isactive = ? 
+[DEBUG] 2022-08-22T17:56:08,376 [nioEventLoopGroup-3-9] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM Tbbanner as o   WHERE o.bannertype = ? AND o.isactive = ? 
+[DEBUG] 2022-08-22T17:56:08,375 [nioEventLoopGroup-3-7] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM Tbbanner as o   WHERE o.bannertype = ? AND o.isactive = ? 
+[DEBUG] 2022-08-22T17:56:08,379 [nioEventLoopGroup-3-5] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM Tbconfig as o   WHERE o.configname = ? 
+[DEBUG] 2022-08-22T17:56:08,382 [nioEventLoopGroup-3-10] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM Tbbanner as o   WHERE o.bannertype = ? AND o.isactive = ? 
+[INFO] 2022-08-22T17:56:08,384 [nioEventLoopGroup-3-8] com.shinobi.api.AbstractUnauthenApi  - commit transaction
+[INFO] 2022-08-22T17:56:08,386 [nioEventLoopGroup-3-5] com.shinobi.api.AbstractUnauthenApi  - commit transaction
+[INFO] 2022-08-22T17:56:08,386 [nioEventLoopGroup-3-9] com.shinobi.api.AbstractUnauthenApi  - commit transaction
+[TRACE] 2022-08-22T17:56:08,382 [nioEventLoopGroup-3-6] com.shinobi.api.AbstractUnauthenApi  - filter {"colname":"configname","operator":"\u003d","value":"SIGN_UP"}
+[INFO] 2022-08-22T17:56:08,387 [nioEventLoopGroup-3-7] com.shinobi.api.AbstractUnauthenApi  - commit transaction
+[TRACE] 2022-08-22T17:56:08,387 [nioEventLoopGroup-3-6] com.shinobi.api.AbstractUnauthenApi  - =
+[TRACE] 2022-08-22T17:56:08,388 [nioEventLoopGroup-3-6] com.shinobi.api.AbstractUnauthenApi  - paramName: configname__0, paramValue: SIGN_UP
+[TRACE] 2022-08-22T17:56:08,388 [nioEventLoopGroup-3-6] com.shinobi.api.AbstractUnauthenApi  -  WHERE o.configname = :configname__0
+[TRACE] 2022-08-22T17:56:08,389 [nioEventLoopGroup-3-6] com.shinobi.service.AbstractService  - query SELECT * FROM Tbconfig as o  WHERE o.configname = :configname__0
+[TRACE] 2022-08-22T17:56:08,389 [nioEventLoopGroup-3-6] com.shinobi.service.AbstractService  - condition:  WHERE o.configname = :configname__0
+[DEBUG] 2022-08-22T17:56:08,390 [nioEventLoopGroup-3-6] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM Tbconfig as o  WHERE o.configname = ? 
+[INFO] 2022-08-22T17:56:08,394 [nioEventLoopGroup-3-10] com.shinobi.api.AbstractUnauthenApi  - commit transaction
+[DEBUG] 2022-08-22T17:56:08,401 [nioEventLoopGroup-3-6] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM Tbconfig as o   WHERE o.configname = ? 
+[TRACE] 2022-08-22T17:56:08,413 [nioEventLoopGroup-3-12] com.shinobiserver.server.handler.impl.RequestHandlerImpl2  - {}
+[DEBUG] 2022-08-22T17:56:08,415 [nioEventLoopGroup-3-12] com.shinobi.api.AbstractUnauthenApi  - getContent
+[DEBUG] 2022-08-22T17:56:08,415 [nioEventLoopGroup-3-12] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM tbmenu WHERE modulename=? AND menuparent IS NULL ORDER BY priority ASC 
+[TRACE] 2022-08-22T17:56:08,418 [nioEventLoopGroup-3-11] com.shinobiserver.server.handler.impl.RequestHandlerImpl2  - {"filters":[{"colname":"bannertype","operator":"=","value":"configAddress"}],"sorts":[{"colname":"priority","value":"asc"}]}
+[INFO] 2022-08-22T17:56:08,419 [nioEventLoopGroup-3-6] com.shinobi.api.AbstractUnauthenApi  - commit transaction
+[TRACE] 2022-08-22T17:56:08,434 [nioEventLoopGroup-3-13] com.shinobiserver.server.handler.impl.RequestHandlerImpl2  - {"filters":[{"colname":"configname","operator":"=","value":"YOUTUBE"}]}
+[TRACE] 2022-08-22T17:56:08,437 [nioEventLoopGroup-3-11] com.shinobi.api.AbstractUnauthenApi  - filter {"colname":"bannertype","operator":"\u003d","value":"configAddress"}
+[TRACE] 2022-08-22T17:56:08,438 [nioEventLoopGroup-3-11] com.shinobi.api.AbstractUnauthenApi  - =
+[TRACE] 2022-08-22T17:56:08,438 [nioEventLoopGroup-3-11] com.shinobi.api.AbstractUnauthenApi  - paramName: bannertype__0, paramValue: configAddress
+[DEBUG] 2022-08-22T17:56:08,441 [nioEventLoopGroup-3-12] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM tbmenu WHERE menuparent =? ORDER BY priority ASC 
+[TRACE] 2022-08-22T17:56:08,440 [nioEventLoopGroup-3-14] com.shinobiserver.server.handler.impl.RequestHandlerImpl2  - {"filters":[{"colname":"configname","operator":"=","value":"FACEBOOK"}]}
+[DEBUG] 2022-08-22T17:56:08,443 [nioEventLoopGroup-3-13] com.shinobiwebcore.api.ClientConfigurationApi  - ["YOUTUBE","FACEBOOK","CONTACT_INFORMATION","HOTLINE","SHOWCOMPANY","CONTACT_INFORMATION","HOTLINE","GMAIL","CONTACT_SUPPORT_INVEST","DEFAULT_THUMBNAIL","GMAIL","CONTACT_SUPPORT_INVEST","FACEBOOK","SIGN_IN","SIGN_UP","SIGN_UP_INFO","FOOTER","YOUTUBE"]
+[DEBUG] 2022-08-22T17:56:08,446 [nioEventLoopGroup-3-12] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM tbmenu WHERE menuparent =? ORDER BY priority ASC 
+[TRACE] 2022-08-22T17:56:08,441 [nioEventLoopGroup-3-11] com.shinobi.api.AbstractUnauthenApi  - filter {"colname":"isactive","operator":"\u003d","value":"true"}
+[TRACE] 2022-08-22T17:56:08,446 [nioEventLoopGroup-3-11] com.shinobi.api.AbstractUnauthenApi  - =
+[TRACE] 2022-08-22T17:56:08,447 [nioEventLoopGroup-3-11] com.shinobi.api.AbstractUnauthenApi  - paramName: isactive__1, paramValue: true
+[TRACE] 2022-08-22T17:56:08,447 [nioEventLoopGroup-3-11] com.shinobi.api.AbstractUnauthenApi  -  WHERE o.bannertype = :bannertype__0 AND o.isactive = :isactive__1 ORDER BY  o.priority asc ,  o.priority asc
+[TRACE] 2022-08-22T17:56:08,454 [nioEventLoopGroup-3-13] com.shinobi.api.AbstractUnauthenApi  - filter {"colname":"configname","operator":"\u003d","value":"YOUTUBE"}
+[TRACE] 2022-08-22T17:56:08,454 [nioEventLoopGroup-3-13] com.shinobi.api.AbstractUnauthenApi  - =
+[TRACE] 2022-08-22T17:56:08,455 [nioEventLoopGroup-3-15] com.shinobiserver.server.handler.impl.RequestHandlerImpl2  - {"filters":[{"colname":"configname","operator":"=","value":"SIGN_UP_INFO"}]}
+[TRACE] 2022-08-22T17:56:08,455 [nioEventLoopGroup-3-13] com.shinobi.api.AbstractUnauthenApi  - paramName: configname__0, paramValue: YOUTUBE
+[TRACE] 2022-08-22T17:56:08,455 [nioEventLoopGroup-3-13] com.shinobi.api.AbstractUnauthenApi  -  WHERE o.configname = :configname__0
+[TRACE] 2022-08-22T17:56:08,456 [nioEventLoopGroup-3-13] com.shinobi.service.AbstractService  - query SELECT * FROM Tbconfig as o  WHERE o.configname = :configname__0
+[TRACE] 2022-08-22T17:56:08,456 [nioEventLoopGroup-3-13] com.shinobi.service.AbstractService  - condition:  WHERE o.configname = :configname__0
+[DEBUG] 2022-08-22T17:56:08,456 [nioEventLoopGroup-3-13] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM Tbconfig as o  WHERE o.configname = ? 
+[DEBUG] 2022-08-22T17:56:08,453 [nioEventLoopGroup-3-14] com.shinobiwebcore.api.ClientConfigurationApi  - ["YOUTUBE","FACEBOOK","CONTACT_INFORMATION","HOTLINE","SHOWCOMPANY","CONTACT_INFORMATION","HOTLINE","GMAIL","CONTACT_SUPPORT_INVEST","DEFAULT_THUMBNAIL","GMAIL","CONTACT_SUPPORT_INVEST","FACEBOOK","SIGN_IN","SIGN_UP","SIGN_UP_INFO","FOOTER","YOUTUBE"]
+[DEBUG] 2022-08-22T17:56:08,453 [nioEventLoopGroup-3-12] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM tbmenu WHERE menuparent =? ORDER BY priority ASC 
+[TRACE] 2022-08-22T17:56:08,454 [nioEventLoopGroup-3-11] com.shinobi.service.AbstractService  - query SELECT * FROM Tbbanner as o  WHERE o.bannertype = :bannertype__0 AND o.isactive = :isactive__1 ORDER BY  o.priority asc ,  o.priority asc
+[TRACE] 2022-08-22T17:56:08,461 [nioEventLoopGroup-3-16] com.shinobiserver.server.handler.impl.RequestHandlerImpl2  - {"filters":[{"colname":"configname","operator":"=","value":"FOOTER"}]}
+[DEBUG] 2022-08-22T17:56:08,463 [nioEventLoopGroup-3-15] com.shinobiwebcore.api.ClientConfigurationApi  - ["YOUTUBE","FACEBOOK","CONTACT_INFORMATION","HOTLINE","SHOWCOMPANY","CONTACT_INFORMATION","HOTLINE","GMAIL","CONTACT_SUPPORT_INVEST","DEFAULT_THUMBNAIL","GMAIL","CONTACT_SUPPORT_INVEST","FACEBOOK","SIGN_IN","SIGN_UP","SIGN_UP_INFO","FOOTER","YOUTUBE"]
+[TRACE] 2022-08-22T17:56:08,461 [nioEventLoopGroup-3-11] com.shinobi.service.AbstractService  - condition:  WHERE o.bannertype = :bannertype__0 AND o.isactive = :isactive__1 ORDER BY  o.priority asc ,  o.priority asc
+[DEBUG] 2022-08-22T17:56:08,465 [nioEventLoopGroup-3-11] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM Tbbanner as o  WHERE o.bannertype = ? AND o.isactive = ? ORDER BY  o.priority asc ,  o.priority asc 
+[DEBUG] 2022-08-22T17:56:08,466 [nioEventLoopGroup-3-12] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM tbmenu WHERE menuparent =? ORDER BY priority ASC 
+[TRACE] 2022-08-22T17:56:08,466 [nioEventLoopGroup-3-14] com.shinobi.api.AbstractUnauthenApi  - filter {"colname":"configname","operator":"\u003d","value":"FACEBOOK"}
+[TRACE] 2022-08-22T17:56:08,467 [nioEventLoopGroup-3-14] com.shinobi.api.AbstractUnauthenApi  - =
+[TRACE] 2022-08-22T17:56:08,467 [nioEventLoopGroup-3-14] com.shinobi.api.AbstractUnauthenApi  - paramName: configname__0, paramValue: FACEBOOK
+[TRACE] 2022-08-22T17:56:08,468 [nioEventLoopGroup-3-14] com.shinobi.api.AbstractUnauthenApi  -  WHERE o.configname = :configname__0
+[DEBUG] 2022-08-22T17:56:08,468 [nioEventLoopGroup-3-13] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM Tbconfig as o   WHERE o.configname = ? 
+[TRACE] 2022-08-22T17:56:08,468 [nioEventLoopGroup-3-14] com.shinobi.service.AbstractService  - query SELECT * FROM Tbconfig as o  WHERE o.configname = :configname__0
+[TRACE] 2022-08-22T17:56:08,468 [nioEventLoopGroup-3-14] com.shinobi.service.AbstractService  - condition:  WHERE o.configname = :configname__0
+[DEBUG] 2022-08-22T17:56:08,469 [nioEventLoopGroup-3-16] com.shinobiwebcore.api.ClientConfigurationApi  - ["YOUTUBE","FACEBOOK","CONTACT_INFORMATION","HOTLINE","SHOWCOMPANY","CONTACT_INFORMATION","HOTLINE","GMAIL","CONTACT_SUPPORT_INVEST","DEFAULT_THUMBNAIL","GMAIL","CONTACT_SUPPORT_INVEST","FACEBOOK","SIGN_IN","SIGN_UP","SIGN_UP_INFO","FOOTER","YOUTUBE"]
+[DEBUG] 2022-08-22T17:56:08,469 [nioEventLoopGroup-3-14] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM Tbconfig as o  WHERE o.configname = ? 
+[DEBUG] 2022-08-22T17:56:08,473 [nioEventLoopGroup-3-11] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM Tbbanner as o   WHERE o.bannertype = ? AND o.isactive = ? 
+[DEBUG] 2022-08-22T17:56:08,473 [nioEventLoopGroup-3-12] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM tbmenu WHERE menuparent =? ORDER BY priority ASC 
+[TRACE] 2022-08-22T17:56:08,475 [nioEventLoopGroup-3-15] com.shinobi.api.AbstractUnauthenApi  - filter {"colname":"configname","operator":"\u003d","value":"SIGN_UP_INFO"}
+[TRACE] 2022-08-22T17:56:08,476 [nioEventLoopGroup-3-15] com.shinobi.api.AbstractUnauthenApi  - =
+[TRACE] 2022-08-22T17:56:08,476 [nioEventLoopGroup-3-15] com.shinobi.api.AbstractUnauthenApi  - paramName: configname__0, paramValue: SIGN_UP_INFO
+[TRACE] 2022-08-22T17:56:08,476 [nioEventLoopGroup-3-15] com.shinobi.api.AbstractUnauthenApi  -  WHERE o.configname = :configname__0
+[TRACE] 2022-08-22T17:56:08,477 [nioEventLoopGroup-3-16] com.shinobi.api.AbstractUnauthenApi  - filter {"colname":"configname","operator":"\u003d","value":"FOOTER"}
+[TRACE] 2022-08-22T17:56:08,477 [nioEventLoopGroup-3-15] com.shinobi.service.AbstractService  - query SELECT * FROM Tbconfig as o  WHERE o.configname = :configname__0
+[TRACE] 2022-08-22T17:56:08,477 [nioEventLoopGroup-3-16] com.shinobi.api.AbstractUnauthenApi  - =
+[TRACE] 2022-08-22T17:56:08,477 [nioEventLoopGroup-3-15] com.shinobi.service.AbstractService  - condition:  WHERE o.configname = :configname__0
+[TRACE] 2022-08-22T17:56:08,477 [nioEventLoopGroup-3-16] com.shinobi.api.AbstractUnauthenApi  - paramName: configname__0, paramValue: FOOTER
+[TRACE] 2022-08-22T17:56:08,478 [nioEventLoopGroup-3-16] com.shinobi.api.AbstractUnauthenApi  -  WHERE o.configname = :configname__0
+[DEBUG] 2022-08-22T17:56:08,478 [nioEventLoopGroup-3-15] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM Tbconfig as o  WHERE o.configname = ? 
+[TRACE] 2022-08-22T17:56:08,478 [nioEventLoopGroup-3-16] com.shinobi.service.AbstractService  - query SELECT * FROM Tbconfig as o  WHERE o.configname = :configname__0
+[TRACE] 2022-08-22T17:56:08,481 [nioEventLoopGroup-3-16] com.shinobi.service.AbstractService  - condition:  WHERE o.configname = :configname__0
+[DEBUG] 2022-08-22T17:56:08,481 [nioEventLoopGroup-3-16] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM Tbconfig as o  WHERE o.configname = ? 
+[DEBUG] 2022-08-22T17:56:08,485 [nioEventLoopGroup-3-14] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM Tbconfig as o   WHERE o.configname = ? 
+[INFO] 2022-08-22T17:56:08,485 [nioEventLoopGroup-3-13] com.shinobi.api.AbstractUnauthenApi  - commit transaction
+[DEBUG] 2022-08-22T17:56:08,492 [nioEventLoopGroup-3-15] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM Tbconfig as o   WHERE o.configname = ? 
+[DEBUG] 2022-08-22T17:56:08,492 [nioEventLoopGroup-3-16] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM Tbconfig as o   WHERE o.configname = ? 
+[INFO] 2022-08-22T17:56:08,493 [nioEventLoopGroup-3-12] com.shinobi.api.AbstractUnauthenApi  - commit transaction
+[INFO] 2022-08-22T17:56:08,494 [nioEventLoopGroup-3-11] com.shinobi.api.AbstractUnauthenApi  - commit transaction
+[INFO] 2022-08-22T17:56:08,498 [nioEventLoopGroup-3-14] com.shinobi.api.AbstractUnauthenApi  - commit transaction
+[INFO] 2022-08-22T17:56:08,501 [nioEventLoopGroup-3-16] com.shinobi.api.AbstractUnauthenApi  - commit transaction
+[INFO] 2022-08-22T17:56:08,501 [nioEventLoopGroup-3-15] com.shinobi.api.AbstractUnauthenApi  - commit transaction
+[TRACE] 2022-08-22T17:56:08,520 [nioEventLoopGroup-3-2] com.shinobiserver.server.handler.impl.RequestHandlerImpl2  - {"filters":[{"colname":"chartname","operator":"=","value":"HOME CHART"},{"colname":"itemname","operator":"=","value":"line"}]}
+[TRACE] 2022-08-22T17:56:08,522 [nioEventLoopGroup-3-1] com.shinobiserver.server.handler.impl.RequestHandlerImpl2  - {"chartname":"HOME CHART"}
+[TRACE] 2022-08-22T17:56:08,530 [nioEventLoopGroup-3-3] com.shinobiserver.server.handler.impl.RequestHandlerImpl2  - {"filters":[{"colname":"bannertype","operator":"=","value":"support"}],"sorts":[{"colname":"priority","value":"asc"}]}
+[DEBUG] 2022-08-22T17:56:08,537 [nioEventLoopGroup-3-1] com.shinobi.api.AbstractUnauthenApi  - getContent
+[TRACE] 2022-08-22T17:56:08,545 [nioEventLoopGroup-3-4] com.shinobiserver.server.handler.impl.RequestHandlerImpl2  - {"filters":[{"colname":"bannertype","operator":"=","value":"proud"}],"sorts":[{"colname":"priority","value":"asc"}]}
+[TRACE] 2022-08-22T17:56:08,550 [nioEventLoopGroup-3-2] com.shinobi.api.AbstractUnauthenApi  - filter {"colname":"chartname","operator":"\u003d","value":"HOME CHART"}
+[TRACE] 2022-08-22T17:56:08,551 [nioEventLoopGroup-3-2] com.shinobi.api.AbstractUnauthenApi  - =
+[TRACE] 2022-08-22T17:56:08,551 [nioEventLoopGroup-3-3] com.shinobi.api.AbstractUnauthenApi  - filter {"colname":"bannertype","operator":"\u003d","value":"support"}
+[TRACE] 2022-08-22T17:56:08,558 [nioEventLoopGroup-3-3] com.shinobi.api.AbstractUnauthenApi  - =
+[TRACE] 2022-08-22T17:56:08,558 [nioEventLoopGroup-3-2] com.shinobi.api.AbstractUnauthenApi  - paramName: chartname__0, paramValue: HOME CHART
+[TRACE] 2022-08-22T17:56:08,559 [nioEventLoopGroup-3-3] com.shinobi.api.AbstractUnauthenApi  - paramName: bannertype__0, paramValue: support
+[TRACE] 2022-08-22T17:56:08,559 [nioEventLoopGroup-3-2] com.shinobi.api.AbstractUnauthenApi  - filter {"colname":"itemname","operator":"\u003d","value":"line"}
+[TRACE] 2022-08-22T17:56:08,560 [nioEventLoopGroup-3-3] com.shinobi.api.AbstractUnauthenApi  - filter {"colname":"isactive","operator":"\u003d","value":"true"}
+[TRACE] 2022-08-22T17:56:08,560 [nioEventLoopGroup-3-2] com.shinobi.api.AbstractUnauthenApi  - =
+[TRACE] 2022-08-22T17:56:08,560 [nioEventLoopGroup-3-3] com.shinobi.api.AbstractUnauthenApi  - =
+[TRACE] 2022-08-22T17:56:08,560 [nioEventLoopGroup-3-2] com.shinobi.api.AbstractUnauthenApi  - paramName: itemname__1, paramValue: line
+[TRACE] 2022-08-22T17:56:08,561 [nioEventLoopGroup-3-3] com.shinobi.api.AbstractUnauthenApi  - paramName: isactive__1, paramValue: true
+[TRACE] 2022-08-22T17:56:08,561 [nioEventLoopGroup-3-2] com.shinobi.api.AbstractUnauthenApi  -  WHERE o.chartname = :chartname__0 AND o.itemname = :itemname__1
+[TRACE] 2022-08-22T17:56:08,561 [nioEventLoopGroup-3-3] com.shinobi.api.AbstractUnauthenApi  -  WHERE o.bannertype = :bannertype__0 AND o.isactive = :isactive__1 ORDER BY  o.priority asc ,  o.priority asc
+[TRACE] 2022-08-22T17:56:08,564 [nioEventLoopGroup-3-3] com.shinobi.service.AbstractService  - query SELECT * FROM Tbbanner as o  WHERE o.bannertype = :bannertype__0 AND o.isactive = :isactive__1 ORDER BY  o.priority asc ,  o.priority asc
+[TRACE] 2022-08-22T17:56:08,565 [nioEventLoopGroup-3-3] com.shinobi.service.AbstractService  - condition:  WHERE o.bannertype = :bannertype__0 AND o.isactive = :isactive__1 ORDER BY  o.priority asc ,  o.priority asc
+[DEBUG] 2022-08-22T17:56:08,565 [nioEventLoopGroup-3-3] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM Tbbanner as o  WHERE o.bannertype = ? AND o.isactive = ? ORDER BY  o.priority asc ,  o.priority asc 
+[TRACE] 2022-08-22T17:56:08,566 [nioEventLoopGroup-3-5] com.shinobiserver.server.handler.impl.RequestHandlerImpl2  - {"filters":[{"colname":"bannertype","operator":"=","value":"homeSection2"}],"sorts":[{"colname":"priority","value":"asc"}]}
+[TRACE] 2022-08-22T17:56:08,561 [nioEventLoopGroup-3-2] com.shinobi.service.AbstractService  - query SELECT * FROM Viewbondpnlstatement as o  WHERE o.chartname = :chartname__0 AND o.itemname = :itemname__1
+[TRACE] 2022-08-22T17:56:08,567 [nioEventLoopGroup-3-2] com.shinobi.service.AbstractService  - condition:  WHERE o.chartname = :chartname__0 AND o.itemname = :itemname__1
+[DEBUG] 2022-08-22T17:56:08,568 [nioEventLoopGroup-3-2] com.shinobi.persistence.impl.PreparedStatementBuilderImpl  - SELECT * FROM Viewbondpnlstatement as o  WHERE o.chartname = ? AND o.itemname = ? 
+[TRACE] 2022-08-22T17:56:08,569 [nioEventLoopGroup-3-4] com.shinobi.api.AbstractUnauthenApi  - filter {"colname":"bannertype","operator":"\u003d","value":"proud"}
+[TRACE] 2022-08-22T17:56:08,569 [nioEventLoopGroup-3-4] com.shinobi.api.AbstractUnauthenApi  - =
+[TRACE] 2022-08-22T17:56:08,580 [nioEventLoopGroup-3-4] com.shinobi.api.AbstractUnauthenApi  - paramName: bannertype__0, paramValue: proud
+[TRACE] 2022-08-22T17:56:08,581 [nioEventLoopGroup-3-6] com.shinobiserver.server.handler.impl.RequestHandlerImpl2  - {"filters":[{"colname":"bannertype","operator":"=","value":"ideaNDT"}],"sorts":[{"colname":"priority","value":"asc"}]}
+[TRACE] 2022-08-22T17:56:08,582 [nioEventLoopGroup-3-4] com.shinobi.api.AbstractUnauthenApi  - filter {"colname":"isactive","operator":"\u003d","value":"true"}
